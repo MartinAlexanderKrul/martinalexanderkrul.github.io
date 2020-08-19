@@ -24,6 +24,8 @@ h2 {
 main {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 
 }
 .links, .hidden {
