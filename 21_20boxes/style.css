@@ -1,0 +1,30 @@
+.container1 {
+  width: 800px;
+  height: 100px;
+  border: 1.5px solid blue;
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-evenly;
+}
+
+.container2 {
+  width: 800px;
+  height: 100px;
+  border: 1.5px solid blue;
+  background: red;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.firstbox {
+  width: 50px;
+  height: 50px;
+  background: blue;
+  margin-top: 25px
+}
+
+.secondbox {
+  width: 50px;
+  height: 50px;
+  background: purple;
+  margin-top: 25px

@@ -1,0 +1,39 @@
+.purple {
+  background: purple;
+  with: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.cyan {
+  background: cyan;
+  height: 30px;
+  width: 110px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+#cyan2 {
+  width: 150px;
+}
+
+.mainpage {
+  display: flex;
+}
+
+.yellow {
+  background: yellow;
+  width: 75%;
+  height: 500px;
+  flex-grow: 3;
+
+}
+
+.lime {
+  background: lime;
+  width: 25%;
+  height: 500px;
+  flex-grow: 1;
+
+}

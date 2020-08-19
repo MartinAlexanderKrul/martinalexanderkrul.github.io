@@ -1,0 +1,36 @@
+h1 {
+  background: black;
+  color: white;
+  font-size: 30px;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+h3 {
+  text-decoration: underline;
+  font-family: Helvetica;
+}
+
+.info {
+  text-align: center;
+  font-style: italic;
+}
+
+.text {
+  color: red;
+}
+
+ol.a {
+  list-style-type: lower-alpha;
+  font-style: underlined;
+}
+
+ul.a {
+  list-style-type: square;
+}
+
+ul.b {
+  list-style-type: circle;
+  text-shadow: 1px 1px red;
+}

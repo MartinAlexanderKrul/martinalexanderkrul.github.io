@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Complicated form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<form>
+  <fieldset>
+        <legend class="title">Interesting application form</legend>
+    
+  <fieldset>
+    <legend>What is your name?</legend>
+    
+    <input type="text" id="name" name="name">
+  </fieldset>
+    
+  <fieldset>
+    <legend>What is your favourite color?</legend>
+    
+    <input type="checkbox" name="color" id="red">
+    <label for="red">Red</label><br>
+    <input type="checkbox" name="color" id="green">
+    <label for="green">Green</label><br>
+    <input type="checkbox" name="color" id="blue">
+    <label for="blue">Blue</label><br>    
+    <input type="checkbox" name="color" id="other">
+    <label for="other">Other <input type="text"></label> 
+   </fieldset>
+    
+   <fieldset>
+     <legend>Would you like to become a developer?</legend>
+     
+     <input type="radio" name="yesno" id="yes">
+     <label for="yes">Yes</label> <br>
+     <input type="radio" name="yesno" id="no">
+     <label for="no">No</label> 
+   </fieldset>    
+     
+   <fieldset>
+     <legend>Why would you like to become a developer?</legend>
+     
+     <textarea id="answer" name="answer" rows="5" cols="40"></textarea>
+    </fieldset>
+    
+    <button>Submit</button>
+     
+  </fieldset></form>
+<!-- partial -->
+  
+</body>
+</html>

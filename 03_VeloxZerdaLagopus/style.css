@@ -1,0 +1,17 @@
+p {
+  color: #015668;
+  background: #0D91A1;
+  font-family: 'Indie Flower', cursive;
+  font-size: 22px;
+
+  
+  width: 200px;
+  height: 50px;
+  
+  padding: 10px;
+  margin: 10px;
+    
+  border: 5px;
+  border-style: solid;
+  border-color: #7DCE94;
+}

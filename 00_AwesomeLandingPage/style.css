@@ -1,0 +1,87 @@
+.container {
+  font-family: 'Open Sans', sans-serif;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.newsletter-form #email {
+  border: solid  1px #cfcfcf;
+  border-radius: 3px;
+  height: 30px;
+  padding-left: 3px;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+}
+
+.newsletter-form button {
+  background: #3cb878;
+  border: none;
+  color: white;
+  height: 30px;
+  margin-top: 5px;
+  display: block;
+  width: 100%;
+}
+
+.newsletter-form {
+  color: grey;
+  border: solid thin #cfcfcf;
+  border-radius: 3px;
+  padding: 10px;
+  position: relative;
+}
+
+#terms {
+  position: relative;
+  top: 2px;
+}
+
+h3 {
+  margin-top: 0px;
+}
+
+.closing-x {
+  position: absolute;
+  top: 0px;
+  right: 5px;
+  cursor: pointer;
+}
+
+.closing-x button {
+  color: black;
+  background: none;
+  cursor: pointer;
+}
+
+#question {
+  background: #3cb878;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.card {
+  width: 155px;
+  background: #3cb878;
+  color: white;
+  text-align: center;
+  box-shadow: 0px 0px 3px 2px gray;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.card-holder {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}

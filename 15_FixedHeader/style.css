@@ -1,0 +1,64 @@
+.purple {
+  background: purple;
+  with: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.cyancontainer {
+  margin-left: 108px;
+  display: flex;
+  align-items: center;
+}
+
+.cyan {
+  background: cyan;
+  height: 30px;
+  width: 110px;
+  margin-left: 0px;
+  margin-right: 20px; 
+}
+
+#cyan2 {
+  width: 150px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 60px;
+}
+
+.page {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.yellow {
+  background: yellow;
+  width: 75%;
+  height: 500px;
+  flex-grow: 1;
+}
+
+.lime {
+  background: lime;
+  width: 25%;
+  height: 500px;
+  flex-grow: 1;
+}
+
+.lightgrey {
+  background: lightgrey;
+  width: 100%;
+  height: 80px;
+  margin-top: 20px;
+}
+
+.header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

@@ -1,0 +1,10 @@
+img {
+  display: inline;
+  width: 260px;
+  margin: 50px;
+}
+
+img:hover {
+  width: 370px;
+  margin: 0px;
+}

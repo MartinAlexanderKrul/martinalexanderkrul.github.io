@@ -1,0 +1,17 @@
+form {
+  width: 500px;
+}
+
+legend {
+  font-weight: bold
+}
+
+legend.title {
+  font-weight: normal;
+  font-size: 18px;
+}
+
+button {
+  margin: 3px;
+    
+}
