@@ -57,3 +57,7 @@ a {
 #hidden: hover {
 box-shadow: none;
 }
+
+#otherlinks {
+  opacity: 0.7;
+}
