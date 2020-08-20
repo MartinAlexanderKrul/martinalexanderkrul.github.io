@@ -41,7 +41,7 @@ let loadPhoto = (photoNumber) => {
 	$('#photo').attr('src', imagesData[photoNumber].photo);
     $('#PhotoTitle').text(imagesData[photoNumber].title);
     $('#PhotoDescription').text(imagesData[photoNumber].description);   
-	$('.previews div').remove('.this-arrow');
+	$('.thumbnail-container div').remove('.this-arrow');
 	$(`*[data-number="${photoNumber}"]`).parent().prepend('<div class="this-arrow"></div>');
 }
 
@@ -59,19 +59,19 @@ $('#previous').click(() => {
 	loadPhoto(currentPhoto);
 });
 
-// let i = 0;
-// imagesData.forEach((data) => {
-// 	$('.previews').append(`<div style="position: relative"><div class="hidden-title">${data.title}<div class="hidden-arrow"></div></div><img src="${data.photo}" class="thumbnail" data-number="${i}"></img></div>`);
-// 	i++;
-// });
 
-// $('.thumbnail').click((event) => {
-// 	currentPhoto = $(event.target).attr('data-number');
-// 	loadPhoto(currentPhoto);
-// });
 
-// $('.thumbnail').hover((event) => {
-// 	$(event.target).parent().children('.hidden-title').css('visibility', 'unset');
-// }, (event) => {
-// 	$(event.target).parent().children('.hidden-title').css('visibility', 'hidden');
-// });
+
+
+let i = 0;
+imagesData.forEach((data) => {
+	$('.previews').append(`<div style="position: relative"><div class="hidden-title">${data.title}<div class="hidden-arrow"></div></div><img src="${data.photo}" class="thumbnail" data-number="${i}"></img></div>`);
+	i++;
+});
+
+loadPhoto(currentPhoto);
+
+$('.thumbnail').click((event) => {
+	currentPhoto = $(event.target).attr('data-number');
+	loadPhoto(currentPhoto);
+});
