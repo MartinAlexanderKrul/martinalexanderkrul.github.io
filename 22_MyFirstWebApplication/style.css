@@ -31,15 +31,20 @@ button {
     background-repeat: no-repeat;
     border: none;
     width: 15px;
-    height: 23px;
+    height: 25px;
     margin-left: 10px;
     margin-right: 10px;
-    margin-bottom: 0px;
-    margin-top: 0px;
+    outline: none;
+    text-align: center;
+ 
 }
 
 button:hover {
     filter: brightness(-25%);
+}
+
+button:active {
+    border: none;
 }
 
 #next {
