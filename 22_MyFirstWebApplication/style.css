@@ -1,8 +1,10 @@
-html, body {
+body {
     background: linear-gradient(to bottom right, grey, lightgrey);
 }
 
-
+body {
+    padding: 10%;
+}
 
 .body {
     display: flex;
