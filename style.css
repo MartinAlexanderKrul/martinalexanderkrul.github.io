@@ -25,7 +25,9 @@ main {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  width: 75%;
+  margin-right: auto;
+  margin-left: auto;
 
 }
 .links, .hidden {
@@ -62,7 +64,4 @@ box-shadow: none;
 
 #otherlinks {
   opacity: 0.7;
-}
-
-#anakin {
 }
