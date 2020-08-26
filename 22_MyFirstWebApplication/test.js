@@ -49,13 +49,13 @@ loadPhoto(currentPhoto);
 
 $('#next').click(() => {
 	currentPhoto++;
-	currentPhoto = currentPhoto % 9;
+	currentPhoto = currentPhoto % 6;
 	loadPhoto(currentPhoto);
 });
 
 $('#previous').click(() => {
 	currentPhoto--;
-	currentPhoto = (currentPhoto + 9) % 9;
+	currentPhoto = (currentPhoto + 6) % 6;
 	loadPhoto(currentPhoto);
 });
 
