@@ -1,8 +1,6 @@
 body {
   text-align: center;
-  width: 75%;
-  margin-right: auto;
-  margin-left: auto;
+  justify-items: center;
 }
 
 img {
@@ -22,12 +20,13 @@ h2 {
 }
 
 main {
+  width: 850px;
+  margin-right: auto;
+  margin-left: auto;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  width: 75%;
-  margin-right: auto;
-  margin-left: auto;
+  justify-content: space-evenly ;
 
 }
 .links, .hidden {
