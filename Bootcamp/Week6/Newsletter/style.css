@@ -1,0 +1,64 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ebebeb;
+  position: relative;
+  text-transform: uppercase;
+text-align: center;
+}
+
+main {
+  background-color: white;
+  width: 475px;
+  height: 450px;
+  margin: auto;
+  position: relative;
+}
+
+
+#name, #email {
+  margin-top: 5px;
+  width: 300px;
+  height: 30px;
+}
+
+h1 {
+  padding-top: 65px;
+  padding-bottom: 30px;
+  font-size: 25px;
+}
+
+#login {
+  background-color:#333333;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  padding: 12px 36px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+}
+
+p.button {
+  margin-top: 45px;
+}
+
+p.password {
+  margin-top: 35px;
+  margin-bottom: 0px;
+}
+
+p.forgot {
+  padding: 0px;
+  margin: 0px;
+  margin-top: 5px;
+  text-transform: none;
+  font-size: 13px;
+  text-align: right;
+}
+
+#showspassword {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+}
